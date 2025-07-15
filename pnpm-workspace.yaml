@@ -1,0 +1,8 @@
+shamefullyHoist: true
+ignoredBuiltDependencies:
+  - ejs
+  - esbuild
+
+onlyBuiltDependencies:
+  - '@cloud-ru/ft-config-husky'
+sideEffectsCache: false
