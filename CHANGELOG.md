@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [17.8.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.8.0...npm17.8.1) (2025-07-23)
+
+
+### Bug Fixes
+
+* **PDS-2561:** pnpm config prettified ([de9e48d](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/de9e48d8118047a36d1976d5870ddaded952ced5))
+
 # [17.8.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.7.8...npm17.8.0) (2025-07-16)
 
 
