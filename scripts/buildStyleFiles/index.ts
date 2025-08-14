@@ -6,6 +6,7 @@ import { Themes, TOKENS_BUILD_DIRECTORY } from '../constants';
 import {
   CSSModuleThemeFormat,
   SCSSComponentFormat,
+  SCSSMixinThemeFormat,
   SCSSThemeVariablesFormat,
   TSThemeVariablesFormat,
 } from './fileFormatters';
@@ -14,6 +15,7 @@ import { ComponentsTransform, ThemeTransform, ThemeVariablesTransform } from './
 import {
   getComponentStylesConfig,
   getCSSModuleThemeConfig,
+  getSCSSMixinThemeConfig,
   getSCSSThemeVariablesConfig,
   getTSThemeVariablesConfig,
 } from './utils';
@@ -27,6 +29,7 @@ export const buildStyleFiles = async () => {
   // подключаем форматы для файлов
   StyleDictionaryPackage.registerFormat(CSSModuleThemeFormat);
   StyleDictionaryPackage.registerFormat(SCSSThemeVariablesFormat);
+  StyleDictionaryPackage.registerFormat(SCSSMixinThemeFormat);
   StyleDictionaryPackage.registerFormat(SCSSComponentFormat);
   StyleDictionaryPackage.registerFormat(TSThemeVariablesFormat);
 
@@ -39,6 +42,7 @@ export const buildStyleFiles = async () => {
   // генерим scss-файл с тематическими стилями
   Object.values(Themes).map(theme => {
     StyleDictionaryPackage.extend(getCSSModuleThemeConfig(theme)).buildAllPlatforms();
+    StyleDictionaryPackage.extend(getSCSSMixinThemeConfig(theme)).buildAllPlatforms();
   });
 
   // генерим scss-файлы с токенами для компонентов

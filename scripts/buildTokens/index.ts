@@ -25,7 +25,6 @@ export const buildTokens = async () => {
       paths.map(currentPath => fs.readFile(`${TOKENS_DIRECTORY}/${currentPath}.json`, { encoding: 'utf8' })),
     );
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const rawTokens: AnyRecord = result.reduce(
       (result, currentFile, index) => {
         result[paths[index]] = JSON.parse(currentFile);

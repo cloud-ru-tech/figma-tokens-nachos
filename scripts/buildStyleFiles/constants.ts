@@ -17,6 +17,7 @@ export const FONT_WEIGHT_CSS_PROP = 'fontWeight';
 
 export enum FormatName {
   CSSModuleTheme = 'css-module/theme',
+  SCSSMixinTheme = 'scss/mixin-theme',
   SCSSThemeVariables = 'scss/theme-variables',
   SCSSComponent = 'scss/component',
   TSThemeVariables = 'ts/theme-variables',
