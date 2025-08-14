@@ -110,7 +110,7 @@
   },
   "BackgroundBlur": {
     "value": {
-      "backgroundBlur": "{Dimension.050m}"
+      "backgroundBlur": "{Dimension.2m}"
     },
     "type": "composition"
   }

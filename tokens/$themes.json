@@ -1525,7 +1525,8 @@
       "Gradient.Linear.Mask.0deg": "S:124cf387f43cd056096ea08f2c69fe2c59c57ba2,",
       "Gradient.Linear.Mask.90deg": "S:127f79b8e6b9a0b1c5b0e3f0a0ff01ce911a8f29,",
       "Gradient.Linear.Mask.180deg": "S:bbd21f2bc99d13a3fd131e9691065a66195be04d,",
-      "Gradient.Linear.Mask.270deg": "S:64833acb6538e92e4049cfbdc5ab4253106ceb89,"
+      "Gradient.Linear.Mask.270deg": "S:64833acb6538e92e4049cfbdc5ab4253106ceb89,",
+      "Sys.Neutral.BackgroundOpacity": "S:57a59dece2796a1a69bb5b5619525747f4fe1f71,"
     },
     "selectedTokenSets": {
       "Base/Colors": "source",

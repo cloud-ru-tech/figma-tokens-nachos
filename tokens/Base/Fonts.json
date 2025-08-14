@@ -55,11 +55,11 @@
     }
   },
   "FontFamily": {
-    "SBSansInterface": {
+    "Sans": {
       "value": "SB Sans Interface",
       "type": "fontFamilies"
     },
-    "SBSansTextMono": {
+    "Mono": {
       "value": "SB Sans Text Mono",
       "type": "fontFamilies"
     }

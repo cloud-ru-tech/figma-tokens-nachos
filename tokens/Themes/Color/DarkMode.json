@@ -16,6 +16,11 @@
         "type": "color",
         "description": "Ближний фон по оси Z"
       },
+      "BackgroundOpacity": {
+        "value": "rgba({Sys.Neutral.Background}, 0.5)",
+        "type": "color",
+        "description": "для легких группирующих подложек"
+      },
       "DecorDefault": {
         "value": "{Ref.Gray.25}",
         "type": "color",
