@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [17.9.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.8.1...npm17.9.0) (2025-08-20)
+
+
+### Features
+
+* **FF-6955:** add scss brand mixins building ([05a4b70](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/05a4b70b64c1ebb342169bfe12b27a344b08442e))
+
 ## [17.8.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.8.0...npm17.8.1) (2025-07-23)
 
 
