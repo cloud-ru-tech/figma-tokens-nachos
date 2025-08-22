@@ -1,4 +1,4 @@
 include:
   - project: sbercloud-ui/cicd
     ref: master
-    file: /gitlab-ci-figma-tokens.yml
+    file: /gitlab-ci-figma-tokens-fork.yaml
