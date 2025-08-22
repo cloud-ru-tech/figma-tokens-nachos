@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [18.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.9.0...npm18.0.0) (2025-08-22)
+
+
+### BREAKING CHANGES
+
+
+* **FF-7133:** green default theme ([73cff00](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/73cff0091648dc4bdbb20a1281e16857cb7b9cab))
+
 # [17.9.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm17.8.1...npm17.9.0) (2025-08-20)
 
 
