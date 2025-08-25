@@ -56,11 +56,11 @@
   },
   "FontFamily": {
     "Sans": {
-      "value": "SB Sans Interface",
+      "value": "Inter",
       "type": "fontFamilies"
     },
     "Mono": {
-      "value": "SB Sans Text Mono",
+      "value": "Roboto Mono",
       "type": "fontFamilies"
     }
   },

@@ -1175,7 +1175,7 @@
       },
       "CellStatusIndicator": {
         "Horizontal": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "sizing"
         },
         "Vertical": {
@@ -1414,23 +1414,23 @@
   "Radius": {
     "Button": {
       "Xxs": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
         "type": "borderRadius"
       },
       "Xs": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       },
       "S": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
         "type": "borderRadius"
       },
       "L": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
     },
@@ -1526,19 +1526,19 @@
     },
     "Card": {
       "Container": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.16px} + {DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
       "Picture": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       },
       "Check": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
       "Button": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
         "type": "borderRadius"
       }
     },
@@ -1548,7 +1548,7 @@
         "type": "borderRadius"
       },
       "ModalWindow": {
-        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.32px}",
         "type": "borderRadius"
       }
     },
@@ -1569,15 +1569,15 @@
       },
       "DecorSquare": {
         "S": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "borderRadius"
-        },
-        "M": {
           "value": "{DimensionTheme.General.8px}",
           "type": "borderRadius"
         },
+        "M": {
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+          "type": "borderRadius"
+        },
         "L": {
-          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
           "type": "borderRadius"
         }
       }
@@ -1607,12 +1607,12 @@
     "Toggles": {
       "S": {
         "Container": {
-          "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "borderRadius"
         },
         "Box": {
           "Checkbox": {
-            "value": "{DimensionTheme.General.4px}",
+            "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
             "type": "borderRadius"
           },
           "Radio": {
@@ -1627,12 +1627,12 @@
       },
       "M": {
         "Container": {
-          "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "borderRadius"
         },
         "Box": {
           "Checkbox": {
-            "value": "{DimensionTheme.General.4px}",
+            "value": "{DimensionTheme.General.8px}",
             "type": "borderRadius"
           },
           "Radio": {
@@ -1648,7 +1648,7 @@
     },
     "DropZone": {
       "Single": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
     },
@@ -1700,11 +1700,11 @@
     },
     "Status": {
       "Xs": {
-        "value": "{DimensionTheme.General.2px}",
+        "value": "{DimensionTheme.General.4px} + {DimensionTheme.General.2px}",
         "type": "borderRadius"
       },
       "S": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       }
     },
@@ -1757,15 +1757,15 @@
           "type": "borderRadius"
         },
         "L": {
-          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
-          "type": "borderRadius"
-        },
-        "Xl": {
           "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         },
+        "Xl": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "borderRadius"
+        },
         "Xxl": {
-          "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "borderRadius"
         }
       }
@@ -1773,11 +1773,11 @@
     "Pagination": {
       "PageButton": {
         "Xs": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "borderRadius"
         },
         "S": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "borderRadius"
         }
       },
@@ -1798,19 +1798,19 @@
     },
     "Popover": {
       "Container": {
-        "value": "{DimensionTheme.General.8px}",
+        "value": "{DimensionTheme.General.32px}",
         "type": "borderRadius"
       }
     },
     "Tooltip": {
       "Container": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.24px}",
         "type": "borderRadius"
       }
     },
     "DropList": {
       "Container": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       },
       "Marker": {
@@ -1842,7 +1842,7 @@
         "type": "borderRadius"
       },
       "S": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       }
     },
@@ -1860,15 +1860,15 @@
     },
     "Fields": {
       "S": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
         "type": "borderRadius"
       },
       "L": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       },
       "Buttons": {
@@ -1899,29 +1899,29 @@
     "Calendar": {
       "Item": {
         "S": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "borderRadius"
         },
         "M": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
           "type": "borderRadius"
         },
         "L": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         }
       },
       "Button": {
         "S": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
           "type": "borderRadius"
         },
         "M": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
           "type": "borderRadius"
         },
         "L": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         }
       },
@@ -1932,17 +1932,17 @@
     },
     "Alert": {
       "Button": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       },
       "Container": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "borderRadius"
       }
     },
     "AlertTop": {
       "Button": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
         "type": "borderRadius"
       }
     },
@@ -1950,7 +1950,7 @@
       "Toast": {
         "SystemEvent": {
           "Container": {
-            "value": "{DimensionTheme.General.8px}",
+            "value": "{DimensionTheme.General.16px}",
             "type": "borderRadius"
           },
           "Button": {
@@ -1960,14 +1960,14 @@
         },
         "UserAction": {
           "Container": {
-            "value": "{DimensionTheme.General.8px}",
+            "value": "{DimensionTheme.General.16px}",
             "type": "borderRadius"
           }
         }
       },
       "SystemEvent": {
         "ButtonCloseColumn": {
-          "value": "{DimensionTheme.General.8px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         }
       }
@@ -2030,33 +2030,33 @@
     },
     "Search": {
       "S": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
         "type": "borderRadius"
       },
       "M": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
         "type": "borderRadius"
       },
       "L": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
     },
     "Table": {
       "Container": {
-        "value": "{DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.2px}",
         "type": "borderRadius"
       }
     },
     "NotificationPanel": {
       "Footer": {
         "RadiusBottom": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "borderRadius"
         }
       },
       "Panel": {
-        "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+        "value": "{DimensionTheme.General.16px}",
         "type": "borderRadius"
       }
     },
@@ -2078,7 +2078,7 @@
       "CollapseBlock": {
         "Primary": {
           "Round": {
-            "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+            "value": "{DimensionTheme.General.24px}",
             "type": "borderRadius"
           },
           "Square": {
@@ -2091,7 +2091,7 @@
     "Tree": {
       "Item": {
         "ContentLayout": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "borderRadius"
         }
       }
@@ -2251,20 +2251,6 @@
       },
       "M": {
         "FromIcon": {
-          "value": "{DimensionTheme.General.8px}",
-          "type": "spacing"
-        },
-        "Gap": {
-          "value": "{DimensionTheme.General.4px}",
-          "type": "spacing"
-        },
-        "FromLabel": {
-          "value": "{DimensionTheme.General.16px}",
-          "type": "spacing"
-        }
-      },
-      "L": {
-        "FromIcon": {
           "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         },
@@ -2274,6 +2260,20 @@
         },
         "FromLabel": {
           "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        }
+      },
+      "L": {
+        "FromIcon": {
+          "value": "{DimensionTheme.General.24px}",
+          "type": "spacing"
+        },
+        "Gap": {
+          "value": "{DimensionTheme.General.4px}",
+          "type": "spacing"
+        },
+        "FromLabel": {
+          "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
         }
       }
@@ -2349,11 +2349,11 @@
           }
         },
         "CheckBadge": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px} - {DimensionTheme.General.2px}",
           "type": "spacing"
         },
         "PromoBadge": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
         "FunctionBadge": {
@@ -2589,7 +2589,7 @@
       },
       "S": {
         "FromLabel": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         }
       }
@@ -2613,7 +2613,7 @@
           "type": "spacing"
         },
         "SideM": {
-          "value": "{DimensionTheme.General.32px}",
+          "value": "{DimensionTheme.General.64px}",
           "type": "spacing"
         },
         "Gap": {
@@ -2635,11 +2635,11 @@
       },
       "HeaderElements": {
         "Top": {
-          "value": "{DimensionTheme.General.16px}",
+          "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
         },
         "Side": {
-          "value": "{DimensionTheme.General.16px}",
+          "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
         }
       },
@@ -2713,7 +2713,7 @@
           "type": "spacing"
         },
         "ScrollButtonLayout": {
-          "value": "{DimensionTheme.General.2px}",
+          "value": "{DimensionTheme.General.0px}",
           "type": "spacing"
         }
       },
@@ -2895,7 +2895,7 @@
           "type": "spacing"
         },
         "FromLabel": {
-          "value": "{DimensionTheme.General.8px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         },
         "FromButton": {
@@ -2907,13 +2907,13 @@
     "TagRow": {
       "Xs": {
         "Gap": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         }
       },
       "S": {
         "Gap": {
-          "value": "{DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.2px}",
           "type": "spacing"
         }
       }
@@ -3072,7 +3072,7 @@
         },
         "MarkerContainer": {
           "VerticalPadding": {
-            "value": "{DimensionTheme.General.2px}",
+            "value": "{DimensionTheme.General.4px}",
             "type": "spacing"
           }
         }
@@ -3233,11 +3233,11 @@
         "SystemEvent": {
           "Container": {
             "Padding": {
-              "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+              "value": "{DimensionTheme.General.16px}",
               "type": "spacing"
             },
             "Gap": {
-              "value": "{DimensionTheme.General.8px} + {DimensionTheme.General.4px}",
+              "value": "{DimensionTheme.General.16px}",
               "type": "spacing"
             },
             "Body": {
@@ -3377,7 +3377,7 @@
           "type": "spacing"
         },
         "SideM": {
-          "value": "{DimensionTheme.General.32px}",
+          "value": "{DimensionTheme.General.64px}",
           "type": "spacing"
         },
         "Gap": {
@@ -3399,11 +3399,11 @@
       },
       "HeaderElements": {
         "Top": {
-          "value": "{DimensionTheme.General.16px}",
+          "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
         },
         "Side": {
-          "value": "{DimensionTheme.General.16px}",
+          "value": "{DimensionTheme.General.32px}",
           "type": "spacing"
         }
       },
@@ -3508,7 +3508,7 @@
             "type": "spacing"
           },
           "PaddingRight": {
-            "value": "{DimensionTheme.General.16px}",
+            "value": "{DimensionTheme.General.24px} - {DimensionTheme.General.4px}",
             "type": "spacing"
           }
         },
@@ -3517,7 +3517,7 @@
           "type": "spacing"
         },
         "PaddingHorizontal": {
-          "value": "{DimensionTheme.General.16px}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "spacing"
         },
         "Gap": {
@@ -3537,7 +3537,7 @@
           "type": "spacing"
         },
         "HorizontalPadding": {
-          "value": "{DimensionTheme.General.16px}",
+          "value": "{DimensionTheme.General.24px}",
           "type": "spacing"
         },
         "PaddingBottom": {
@@ -3589,11 +3589,11 @@
     "Table": {
       "Cell": {
         "PaddingHorizontal": {
-          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
         "PaddingVertical": {
-          "value": "{DimensionTheme.General.16px} - {DimensionTheme.General.4px}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
         "Gap": {
@@ -3617,7 +3617,7 @@
       },
       "Head": {
         "SeparatorPadding": {
-          "value": "{DimensionTheme.General.0px}",
+          "value": "{DimensionTheme.General.8px}",
           "type": "spacing"
         },
         "Column": {
@@ -3666,7 +3666,7 @@
         }
       },
       "SeparatorPadding": {
-        "value": "{DimensionTheme.General.0px}",
+        "value": "{DimensionTheme.General.8px}",
         "type": "spacing"
       },
       "BulkAction": {
@@ -3706,15 +3706,15 @@
         },
         "Primary": {
           "VerticalPadding": {
-            "value": "{DimensionTheme.General.24px}",
+            "value": "{DimensionTheme.General.32px}",
             "type": "spacing"
           },
           "HorizontalPadding": {
-            "value": "{DimensionTheme.General.24px}",
+            "value": "{DimensionTheme.General.32px}",
             "type": "spacing"
           },
           "Gap": {
-            "value": "{DimensionTheme.General.24px}",
+            "value": "{DimensionTheme.General.32px}",
             "type": "spacing"
           }
         },
@@ -3724,7 +3724,7 @@
             "type": "spacing"
           },
           "HorizontalPadding": {
-            "value": "{DimensionTheme.General.4px}",
+            "value": "{DimensionTheme.General.16px}",
             "type": "spacing"
           },
           "Gap": {
@@ -3777,7 +3777,7 @@
       },
       "Padding": {
         "Single": {
-          "value": "{DimensionTheme.General.8px}",
+          "value": "{DimensionTheme.General.16px}",
           "type": "spacing"
         }
       }
@@ -4130,7 +4130,7 @@
     },
     "ButtonOutline": {
       "Single": {
-        "value": "{BorderWidth.General.Xs}",
+        "value": "{BorderWidth.General.M}",
         "type": "borderWidth"
       }
     },
@@ -4154,7 +4154,7 @@
     },
     "Fields": {
       "Single": {
-        "value": "{BorderWidth.General.Xs}",
+        "value": "{BorderWidth.General.M}",
         "type": "borderWidth"
       }
     },
@@ -4198,7 +4198,7 @@
     },
     "Card": {
       "Container": {
-        "value": "{BorderWidth.012m}",
+        "value": "{BorderWidth.General.Xs}",
         "type": "borderWidth"
       },
       "Picture": {
@@ -4214,7 +4214,7 @@
     },
     "Search": {
       "Single": {
-        "value": "{BorderWidth.012m}",
+        "value": "{DimensionTheme.General.2px}",
         "type": "borderWidth"
       }
     },
