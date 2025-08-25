@@ -26,7 +26,7 @@
         "type": "color"
       },
       "35": {
-        "value": "#51525d",
+        "value": "#4e4f5a",
         "type": "color"
       },
       "40": {
@@ -54,7 +54,7 @@
         "type": "color"
       },
       "70": {
-        "value": "#b6bac7",
+        "value": "#bec2cf",
         "type": "color"
       },
       "75": {
@@ -84,83 +84,83 @@
     },
     "Brand": {
       "5": {
-        "value": "#1b2422",
+        "value": "#130f25",
         "type": "color"
       },
       "10": {
-        "value": "#1b2924",
+        "value": "#18132e",
         "type": "color"
       },
       "15": {
-        "value": "#1b3028",
+        "value": "#1e1838",
         "type": "color"
       },
       "20": {
-        "value": "#1a392b",
+        "value": "#221a3e",
         "type": "color"
       },
       "25": {
-        "value": "#184a37",
+        "value": "#281f49",
         "type": "color"
       },
       "30": {
-        "value": "#1b5840",
+        "value": "#382a62",
         "type": "color"
       },
       "35": {
-        "value": "#236047",
+        "value": "#473778",
         "type": "color"
       },
       "40": {
-        "value": "#226748",
+        "value": "#513f88",
         "type": "color"
       },
       "45": {
-        "value": "#358561",
+        "value": "#5b4796",
         "type": "color"
       },
       "50": {
-        "value": "#37946e",
+        "value": "#6851a6",
         "type": "color"
       },
       "55": {
-        "value": "#389f74",
+        "value": "#794ed3",
         "type": "color"
       },
       "60": {
-        "value": "#6aaf90",
+        "value": "#997adc",
         "type": "color"
       },
       "65": {
-        "value": "#84c4a5",
+        "value": "#b197e5",
         "type": "color"
       },
       "70": {
-        "value": "#99d7ba",
+        "value": "#c5b2f1",
         "type": "color"
       },
       "75": {
-        "value": "#b3deca",
+        "value": "#decdfb",
         "type": "color"
       },
       "80": {
-        "value": "#caeadb",
+        "value": "#ebdefd",
         "type": "color"
       },
       "85": {
-        "value": "#e4f3eb",
+        "value": "#f0e7fd",
         "type": "color"
       },
       "90": {
-        "value": "#f1f9f4",
+        "value": "#f6effe",
         "type": "color"
       },
       "95": {
-        "value": "#f5fdf8",
+        "value": "#faf7fe",
         "type": "color"
       },
       "99": {
-        "value": "#fbfffc",
+        "value": "#fdfbff",
         "type": "color"
       }
     },

@@ -1,9 +1,12 @@
 {
-  "name": "@sbercloud/figma-tokens-nachos",
+  "name": "@snack-uikit/figma-tokens-nachos",
   "description": "Public Figma Tokens for All: Nachos Brand",
-  "homepage": "https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens-nachos/-/tree/master/",
+  "homepage": "https://github.com/cloud-ru-tech/figma-tokens-nachos",
   "repository": {
     "type": "git",
-    "url": "https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens-nachos.git"
+    "url": "https://github.com/cloud-ru-tech/figma-tokens-nachos.git"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
