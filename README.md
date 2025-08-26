@@ -15,7 +15,8 @@
 
 - CSS-файл со значениями токенов (содержит два класса для модификаций - .light и .dark):
   `build/css/brand.module.css`
-- SCSS-файлы с токенами: `build/scss`
+- SCSS-файлы с токенами: `build/scss`:
+  `build/scss/brand.scss` - файл с токенами модификаций, собранными в миксины `lightThemeMode` и `darkThemeMode`.
 - TS-файлы с токенами: `build/ts`
 
 ## Работа с токенами
