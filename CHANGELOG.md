@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [19.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm18.0.1...npm19.0.0) (2025-12-04)
+
+
+### BREAKING CHANGES
+
+
+* **PDS-3170:** required bump version ([b6734a3](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/b6734a33b12d04504c9372caa949458a4a61cad6))
+
 ## [18.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm18.0.0...npm18.0.1) (2025-08-26)
 
 
