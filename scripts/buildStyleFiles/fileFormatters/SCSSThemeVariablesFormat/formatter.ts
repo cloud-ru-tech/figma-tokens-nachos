@@ -27,7 +27,7 @@ function printVariableMap(dictionary: Dictionary) {
     @return false;
   }
 
-  @return if($no-keys-passed, $map, map.get($map, $keys...));
+  @return if(sass($no-keys-passed): $map; else: map.get($map, $keys...));
 }
 
 @function simple-var($map: (), $keys...) {
