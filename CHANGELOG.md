@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [19.0.1](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm19.0.0...npm19.0.1) (2026-01-12)
+
+
+### Bug Fixes
+
+* **PROFCOMM-2249:** remove scss deprecate varnings ([1661d75](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/commit/1661d757d2299d7046342065cf1556b65df122c2))
+
 # [19.0.0](https://git.sbercloud.tech/sbercloud-ui/tokens-design-system/figma-tokens/compare/npm18.0.1...npm19.0.0) (2025-12-04)
 
 
